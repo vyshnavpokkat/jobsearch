@@ -32,7 +32,7 @@ export default function Jobs() {
                     <div className="card-main">
                         <div className="card-text2">{sdata.title}</div>
                         <p id='Desc'>{sdata.description}</p>
-                        <p id='Typetext'>JOB TYPE:{sdata.employment_type}</p>
+                        <p id='Typetext'>JOB TYPE : {sdata.employment_type}</p>
                     </div>
                     <button className="button" onClick={()=>setChange(true)}><span>ALL JOBS</span></button>
                 </div>

@@ -90,9 +90,11 @@ body {
 }
 
 #Typetext {
-  font-size: 20px;
+  font-size: 16px;
   margin: 2rem;
-  color: #2d2d53;
+  color: #2d2d5390;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 
