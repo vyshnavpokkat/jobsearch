@@ -1,6 +1,5 @@
 /* available jobs page */
 body {
-  font-family: 'Roboto', sans-serif;
   background: #eef2f3;
   height: 100vh;
   display: flex;
@@ -46,11 +45,9 @@ body {
     width: 340px;
     min-height: auto;
   }
-
   #HeadText {
     margin-top: 3rem;
   }
-
 }
 
 .card-text {
@@ -76,7 +73,6 @@ body {
   color: var(--color-text);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
     rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
 }
 
 .card-text2 {
@@ -93,10 +89,10 @@ body {
   color: #6492e2e4;
 }
 
-#Desc2 {
+#Typetext {
   font-size: 20px;
   margin: 2rem;
-  color: #6492e2;
+  color: #2d2d53;
 }
 
 

@@ -8,7 +8,7 @@ export const jobtitle = [
     {
         id: 2,
         title: 'Backend Developer',
-        description: 'Developer who shares our passion for clean, testable code, intuitive user interfaces and scalable backends. We want somebody who can proactively push projects and teams forward. In teams of 2-5 developers you develop Backends and Web-Frontends that keep working even under the extreme',
+        description: 'Developer who shares our passion for clean, testable code.',
         employment_type: 'full time'
     },
     {

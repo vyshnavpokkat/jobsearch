@@ -21,18 +21,18 @@ export default function Jobs() {
             <>
                 <p id='HeadText'>AVAILABLE JOBS</p>
                 {jobtitle.map((item) =>
-                    <div class="card-wrap" onClick={() => singleCard(item.id)}>
-                        <div class="card-text" >{item.title}</div>
+                    <div className="card-wrap" onClick={() => singleCard(item.id)}>
+                        <div className="card-text" >{item.title}</div>
                     </div>
                 )}
 
             </> :
             <>
                 <div className="detailData">
-                    <div class="card-main">
-                        <div class="card-text2">{sdata.title}</div>
+                    <div className="card-main">
+                        <div className="card-text2">{sdata.title}</div>
                         <p id='Desc'>{sdata.description}</p>
-                        <p id='Desc2'>{sdata.employment_type}</p>
+                        <p id='Typetext'>JOB TYPE:{sdata.employment_type}</p>
                     </div>
                     <button className="button" onClick={()=>setChange(true)}><span>ALL JOBS</span></button>
                 </div>
